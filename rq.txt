@@ -1,0 +1,9 @@
+SELECT * FROM db WHERE date='20200826';
+SELECT * FROM db WHERE ao_human='1' and plus_minus='1';
+SELECT COUNT(*) FROM db WHERE date='20200826';
+SELECT end_time from db;
+SELECT * FROM project;
+SELECT * FROM server;
+
+
+
