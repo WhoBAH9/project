@@ -68,4 +68,4 @@ elif call_db == '1':
     cursor=conn.cursor()
     cursor.execute("INSERT into db (id,date,time,ao_human,plus_minus,number,end_time,text) VALUES ('%s','%s','%s','%s','%s','%s','%s','%s')"%(l[2],l[0],l[1],l[3],l[4],l[5],l[6][0:-1],l[7]))
     conn.commit()
-#remove(name_audio+'.wav')
+remove(name_audio+'.wav')
